@@ -28,7 +28,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <!-- body section -->
-  <body class="full-body .work-sans-font mx-auto">
+  <body class="full-body .work-sans-font mx-auto bg-[#f7f2f2]">
     <!-- header section -->
 
     <header class="max-w-[1920px] mx-auto">
@@ -57,7 +57,12 @@
         <div class="pt-6">
           <h2 class="text-[#111111] text-5xl font-extrabold text-center">
             Purchase TK 200 or above & get <br />
-            <span class="text-[#E527B2]">20% off</span>
+            <marquee
+              behavior="right"
+              direction="up"
+              class="text-center mt-4 h-16"
+              ><span class="text-[#E527B2]">20% off</span></marquee
+            >
           </h2>
         </div>
         <!-- promo code section -->
@@ -83,7 +88,7 @@
       <!-- product and side section -->
       <section
         id="product-container"
-        class="mt-20 md:mt-52 w-10/12 mx-auto grid grid-cols-12 gap-8"
+        class="mt-20 md:mt-52 w-10/12 mx-auto grid grid-cols-9 md:grid-cols-12 gap-8"
       >
         <!-- product box section -->
         <section id="product-box" class="col-span-9">
@@ -91,7 +96,7 @@
 
           <div class="kitchen-items">
             <h2 class="font-semibold text-3xl text-[#111111]">Kitchenware</h2>
-            <div class="kitchent-cards grid grid-cols-3 gap-3">
+            <div class="kitchent-cards grid grid-cols-1 md:grid-cols-3 gap-3">
               <!-- card-1 -->
               <div class="card bg-base-100 shadow-sm">
                 <figure class="bg-gray-200 m-5">
@@ -181,9 +186,9 @@
 
           <div class="kitchen-items mt-5">
             <h2 class="font-semibold text-3xl text-[#111111]">Sportswear</h2>
-            <div class="kitchent-cards grid grid-cols-3 gap-3">
+            <div class="kitchent-cards grid grid-cols-1 md:grid-cols-3 gap-3">
               <!-- card-1 -->
-              <div class="card bg-base-100 shadow-sm border-2 border-red-400">
+              <div class="card bg-base-100 shadow-sm">
                 <figure class="bg-gray-200 m-5">
                   <img
                     src="./assets/sports-1.png"
@@ -269,9 +274,102 @@
               </div>
             </div>
           </div>
+
+          <!-- boxes -3 -->
+
+          <div class="kitchen-items mt-5">
+            <h2 class="font-semibold text-3xl text-[#111111]">Sportswear</h2>
+            <div class="kitchent-cards grid grid-cols-1 md:grid-cols-3 gap-3">
+              <!-- card-1 -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="bg-gray-200 m-5">
+                  <img
+                    src="./assets/furniture-1.png"
+                    alt="Shoes"
+                    class="rounded-xl py-6"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Sports Back Cap</h2>
+
+                  <span class="text-[#9e9696] text-base">480.00 TK</span>
+                  <div class="flex">
+                    <img src="./assets/star (2).png" alt="rating" />
+                    <img src="./assets/star (2).png" alt="rating" />
+                    <img src="./assets/star (2).png" alt="rating" />
+                    <img src="./assets/rating (1).png" alt="rating" />
+                    <img src="./assets/rating (1).png" alt="rating" />
+                  </div>
+
+                  <div class="card-actions mt-4">
+                    <button class="btn btn-primary bg-pink-500 border-none">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- card-2 -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="bg-gray-200 m-5">
+                  <img
+                    src="./assets/furniture-2.png"
+                    alt="Shoes"
+                    class="rounded-xl py-5"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Full Jersey Set</h2>
+
+                  <span class="text-[#9e9696] text-base">1080.00 TK</span>
+
+                  <div class="flex">
+                    <img src="./assets/star (2).png" alt="rating" />
+                    <img src="./assets/star (2).png" alt="rating" />
+                    <img src="./assets/star (2).png" alt="rating" />
+                    <img src="./assets/star (2).png" alt="rating" />
+                    <img src="./assets/rating (1).png" alt="rating" />
+                  </div>
+
+                  <div class="card-actions mt-4">
+                    <button class="btn btn-primary bg-pink-500 border-none">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- card-3 -->
+              <div class="card bg-base-100 shadow-sm">
+                <figure class="bg-gray-200 m-5">
+                  <img
+                    src="./assets/furniture-3.png"
+                    alt="Shoes"
+                    class="rounded-xl py-6"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Sports cates</h2>
+
+                  <span class="text-[#9e9696] text-base">990.00 TK</span>
+                  <div class="flex">
+                    <img src="./assets/star (2).png" alt="rating" />
+                    <img src="./assets/star (2).png" alt="rating" />
+                    <img src="./assets/star (2).png" alt="rating" />
+                    <img src="./assets/star (2).png" alt="rating" />
+                    <img src="./assets/star (2).png" alt="rating" />
+                  </div>
+
+                  <div class="card-actions mt-1">
+                    <button class="btn btn-primary bg-pink-500 border-none">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <!-- side bar section -->
-        <aside id="aside-box" class="bg-red-400 col-span-3">
+        <aside id="aside-box" class="bg-red-400 col-span-9 md:col-span-3">
           <h1>cart</h1>
         </aside>
       </section>
